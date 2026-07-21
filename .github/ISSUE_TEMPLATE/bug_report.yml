@@ -1,0 +1,73 @@
+name: Bug report
+description: Report a launcher, download, installation, extraction, repair, or game-launch problem.
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve CS Masters Collection. Do not include passwords, tokens, or private file links.
+  - type: input
+    id: version
+    attributes:
+      label: Launcher version
+      placeholder: 1.0.4
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Problem area
+      options:
+        - Download
+        - Pause or resume
+        - Extraction or installation
+        - Repair or uninstall
+        - Launching a game
+        - Existing game detection
+        - Server browser
+        - Settings or themes
+        - Updates or notifications
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: game
+    attributes:
+      label: Game name
+      description: Leave blank if the issue is not related to a specific game.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Explain what you expected, what happened, and the exact error shown.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open...
+        2. Click...
+        3. See error...
+    validations:
+      required: true
+  - type: textarea
+    id: system
+    attributes:
+      label: Windows and system information
+      description: Include Windows version, available disk space, install path, and security software if relevant.
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Drag files here after removing personal information.
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues for the same problem.
+          required: true
+        - label: I removed passwords, tokens, and private links from this report.
+          required: true
