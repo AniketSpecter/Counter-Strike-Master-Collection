@@ -17,21 +17,23 @@
 
 ## Download
 
-The current public release is **CS Masters Collection v1.0.5** for 64-bit Windows.
+The current public release is **CS Masters Collection v1.0.5** for Windows 10 and 11.
 
-[Download CS Masters Collection v1.0.5](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest)
+| Windows version | Download |
+|-----------------|----------|
+| **64-bit** (recommended — most PCs) | [CS Masters Collection-Setup-1.0.5-x64.exe](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest) |
+| **32-bit** | [CS Masters Collection-Setup-1.0.5-ia32.exe](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/tag/v1.0.5) |
 
-The launcher is approximately 110 MiB. Games are not bundled with it; users choose which titles to download and install from inside the launcher.
+The installer runs **without administrator rights** by default. No Steam account or sign-in is required. If Windows SmartScreen shows a warning, click **More info → Run anyway** — the app is not yet code-signed.
+
+The launcher is approximately 110–200 MiB. Games are not bundled; choose which titles to download and install from inside the launcher.
 
 ### Release verification
 
-The v1.0.5 Windows installer SHA-256 is:
-
-```text
-39B287ABA64DC8B1ECB4E842A27FEFB096BF247A8C7BF3B71C120C1C269F8877
-```
-
-GitHub also displays a digest beside the installer asset. Windows SmartScreen may warn about this community release because the installer is not currently code-signed.
+| File | SHA-256 |
+|------|---------||
+| `CS Masters Collection-Setup-1.0.5-x64.exe` | `A2B866DEC441A4B04FE182BF79C072851B65FB283B555CB412EB5CB1D260F973` |
+| `CS Masters Collection-Setup-1.0.5-ia32.exe` | `48CA10B6403E1E0012689E68853EBE5F8AD2FE510F5AF5ED89A0A553B0D92B07` |
 
 ## Launcher highlights
 
