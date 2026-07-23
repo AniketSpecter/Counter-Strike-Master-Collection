@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.0.6 — Download Link Fix
+
+- Fixed Counter-Strike SME v9.0 download link (updated to new Google Drive address).
+
+Download the installer from the [v1.0.6 release](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/tag/v1.0.6).
+
 ## v1.0.5 — WW2 Mode Picker, Half-Life & Steam Scan
 
 - Added **Counter-Strike WW2** — new game with Google Drive download. Includes an in-launcher mode picker (Normal, Team Death Match, Nazi Zombies, Dogfight Mode, Nazi Zombie: Escape) and graphics selector (Normal / High). Mode switching replicates the original `CS-Launcher.bat` config-file swap logic without opening a command window.
