@@ -1,5 +1,17 @@
 # Changelog
 
+## v1.0.5 — WW2 Mode Picker, Half-Life & Steam Scan
+
+- Added **Counter-Strike WW2** — new game with Google Drive download. Includes an in-launcher mode picker (Normal, Team Death Match, Nazi Zombies, Dogfight Mode, Nazi Zombie: Escape) and graphics selector (Normal / High). Mode switching replicates the original `CS-Launcher.bat` config-file swap logic without opening a command window.
+- Added **Half-Life** — downloads the official installer from the launcher via Google Drive and launches it automatically. Use the Locate button afterward to register your installation.
+- Updated Counter-Strike Online download link to a new MEGA address.
+- Steam scan (`Settings → Scan Steam / Valve`) now checks all subfolders of `C:\Program Files (x86)\Steam\steamapps\common` (and other library paths from the registry) and auto-registers found Valve games.
+- New game thumbnail images for Half-Life, Blue Shift, Decay, Opposing Force, Operation Black Mesa, and HellStrike are now auto-matched when those games are added or located.
+- Fixed the three-dot (⋯) context menu sometimes appearing off-screen or in the wrong position on game cards.
+- Right-clicking an installed game card now opens the same context menu as the three-dot button.
+
+Download the installer and machine-readable checksum metadata from the [v1.0.5 release](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/tag/v1.0.5).
+
 ## v1.0.4 — Remote Library Release
 
 - Converted the collection to a lightweight on-demand game launcher.

@@ -17,18 +17,18 @@
 
 ## Download
 
-The current public release is **CS Masters Collection v1.0.4** for 64-bit Windows.
+The current public release is **CS Masters Collection v1.0.5** for 64-bit Windows.
 
-[Download CS Masters Collection v1.0.4](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest)
+[Download CS Masters Collection v1.0.5](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest)
 
 The launcher is approximately 110 MiB. Games are not bundled with it; users choose which titles to download and install from inside the launcher.
 
 ### Release verification
 
-The v1.0.4 Windows installer SHA-256 is:
+The v1.0.5 Windows installer SHA-256 is:
 
 ```text
-C79DD16D2FD5F508C7613CA30FB38B4098C4A2A28764E26FD50ECD4BE01BFC7A
+39B287ABA64DC8B1ECB4E842A27FEFB096BF247A8C7BF3B71C120C1C269F8877
 ```
 
 GitHub also displays a digest beside the installer asset. Windows SmartScreen may warn about this community release because the installer is not currently code-signed.
@@ -43,6 +43,9 @@ GitHub also displays a digest beside the installer asset. Windows SmartScreen ma
 - Play, repair, move, locate, open, or uninstall installed games.
 - Select a custom game executable or launcher when needed.
 - Manage multiple game libraries and download-cache locations.
+- **Counter-Strike WW2** — choose game mode (Normal, TDM, Nazi Zombies, Dogfight, Nazi Zombie: Escape) and graphics quality directly in the launcher before every session.
+- **Half-Life** — download the installer from the launcher and register your installation with one click.
+- **Steam scan** — auto-detect all Valve games installed via Steam from `steamapps\common`.
 - Use ten themes, server browsing, playtime tracking, notifications, and community links.
 
 ## Screenshot
