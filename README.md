@@ -54,6 +54,14 @@ The launcher is approximately 110–200 MiB. Games are not bundled; choose whic
 
 ![CS Masters Collection Home dashboard](screenshots/home-dashboard.png)
 
+## User Guide
+
+A full step-by-step manual is available in the repository:
+
+**[📖 Read the User Guide](docs/USER-GUIDE.md)**
+
+Covers installation, game cards, downloads, the WW2 mode picker, Half-Life installer flow, settings, themes, and troubleshooting — with screenshots.
+
 ## Help and feedback
 
 - Use [Bug reports](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/issues/new?template=bug_report.yml) for reproducible launcher problems.
