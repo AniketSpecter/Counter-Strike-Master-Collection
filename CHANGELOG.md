@@ -1,5 +1,25 @@
 # Changelog
 
+## CSMC v1.0.13 — Live Library Updates
+
+Released November 8, 2026 for Windows 10 / 11 **64-bit**.
+
+- Public game listings automatically follow administrator removals and restores after syncing. Installed game files are preserved.
+- Signed catalog checks reject older revisions; reconnecting refreshes the public library.
+- Quick Start keeps its shelf and selection stable during background library updates.
+- Includes the updated launcher interface, Quick Start favorites and pins, global search, ten themes, server browsing, downloads, notifications, and Patch Notes.
+- Consumer access requires no launcher account. The private Master launcher remains separate.
+
+This installer bundles the current 27-game listing. Games download separately; the live listing can change. EXFIL PROTOCOL is absent from the public catalog at release time.
+
+Download **CSMC-Setup-1.0.13-x64.exe** below (141.38 MiB). This release provides x64 only; older 32-bit builds remain in historical releases.
+
+The installer is **unsigned**. Windows may show a SmartScreen warning. Confirm the download came from this repository and compare its SHA-256 before deciding to run it.
+
+SHA-256: `6e12e42e08f7385fab78f9fb64f99d946278f64728bd675192c2cebb1f5465b0`
+
+`SHA256SUMS.txt` contains checksums for the installer and update metadata. Tests passed for catalog removal, restore, permanent deletion, stale-revision protection, installation paths, downloads, backend publishing, packaged apps, and theme persistence. These checks do not cover every third-party game archive or Windows configuration.
+
 ## v1.0.6 — Download Link Fix
 
 - Fixed Counter-Strike SME v9.0 download link (updated to new Google Drive address).

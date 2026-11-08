@@ -2,6 +2,12 @@
 
 This roadmap describes intended directions, not guaranteed delivery dates.
 
+## Delivered in v1.0.13
+
+- Live signed library updates, removal and restore synchronization, and reconnect refresh.
+- Quick Start, global search, ten refreshed themes, and separate Notifications and Patch Notes pages.
+- Account-free consumer launcher with private administration.
+
 ## Delivered in v1.0.5
 
 - Counter-Strike WW2 added with an in-launcher game-mode and graphics picker.

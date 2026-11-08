@@ -1,79 +1,50 @@
 # Counter-Strike Masters Collection
 
-<p align="center">
-  <img src="assets/csmc2.png" alt="Counter-Strike Masters Collection" width="190">
-</p>
+<p align="center"><img src="assets/csmc2.png" alt="CSMC" width="190"></p>
 
-<p align="center">
-  <strong>A lightweight Windows launcher for a curated collection of Counter-Strike classics and community mods.</strong>
-</p>
+A Windows launcher for a curated collection of Counter-Strike classics and community mods.
 
-<p align="center">
-  <a href="https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest"><strong>Download latest release</strong></a>
-  · <a href="https://github.com/AniketSpecter/Counter-Strike-Master-Collection/issues/new/choose">Report a problem</a>
-  · <a href="https://github.com/AniketSpecter/Counter-Strike-Master-Collection/discussions">Discussions</a>
-  · <a href="https://discord.gg/cGxs3jTf3e">Discord</a>
-</p>
+## Download CSMC
 
-## Download
+Current release: **v1.0.13**, November 8, 2026. Requires Windows 10 or 11, **64-bit**.
 
-The current public release is **CS Masters Collection v1.0.6** for Windows 10 and 11.
+**[Download CSMC for Windows x64](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/download/v1.0.13/CSMC-Setup-1.0.13-x64.exe)** · [Release notes and checksums](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/tag/v1.0.13)
 
-| Windows version | Download |
-|-----------------|----------|
-| **64-bit** (recommended — most PCs) | [CS Masters Collection-Setup-1.0.6-x64.exe](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/latest) |
-| **32-bit** | [CS Masters Collection-Setup-1.0.6-ia32.exe](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/releases/tag/v1.0.6) |
+The installer is 141.38 MiB. Games download separately. The consumer launcher requires no account and installs per user by default. Existing users can also check for the update inside CSMC. Installation or restart requires your action.
 
-The installer runs **without administrator rights** by default. No Steam account or sign-in is required. If Windows SmartScreen shows a warning, click **More info → Run anyway** — the app is not yet code-signed.
+This release provides an x64 installer. Older 32-bit builds remain in historical releases.
 
-The launcher is approximately 110–200 MiB. Games are not bundled; choose which titles to download and install from inside the launcher.
+The installer is **not digitally signed**, so Windows may show a SmartScreen warning. Verify its origin and checksum before deciding to run it.
 
-### Release verification
+SHA-256 for `CSMC-Setup-1.0.13-x64.exe`:
 
-| File | SHA-256 |
-|------|---------||
-| `CS Masters Collection-Setup-1.0.6-x64.exe` | `B6E4170B6E748AA7AAA407B61CFA53A26A96B1B7CC5BE3C00FC4C7CB48F836AE` |
-| `CS Masters Collection-Setup-1.0.6-ia32.exe` | `3F9D912C44DB70A03615538E57DFC879286A950E10C5BA894F1981672433644B` |
+```text
+6e12e42e08f7385fab78f9fb64f99d946278f64728bd675192c2cebb1f5465b0
+```
 
-## Launcher highlights
+## Features
 
-- Browse the full collection without storing every game locally.
-- Install games on demand from Google Drive or MEGA without signing in.
-- Pause, resume, cancel, and recover interrupted downloads.
-- View percentage, transferred bytes, speed, and estimated remaining time.
-- Automatically verify and extract game archives.
-- Play, repair, move, locate, open, or uninstall installed games.
-- Select a custom game executable or launcher when needed.
-- Manage multiple game libraries and download-cache locations.
-- **Counter-Strike WW2** — choose game mode (Normal, TDM, Nazi Zombies, Dogfight, Nazi Zombie: Escape) and graphics quality directly in the launcher before every session.
-- **Half-Life** — download the installer from the launcher and register your installation with one click.
-- **Steam scan** — auto-detect all Valve games installed via Steam from `steamapps\common`.
-- Use ten themes, server browsing, playtime tracking, notifications, and community links.
+- Browse the live public game library and install titles on demand.
+- Quick Start with favorites, pinned games, and a stable shelf during background updates.
+- Search games and launcher pages; manage installed games and multiple library locations.
+- Download progress, pause/resume, installation, repair, locate, move, and uninstall controls.
+- Ten themes with saved preferences, server browsing, playtime, community videos, notifications, and Patch Notes.
+- Automatic signed catalog synchronization, including removals and restores after reconnecting.
 
-## Screenshot
+When an administrator removes a game, it disappears from launcher listings after the next successful sync. Offline launchers update when they reconnect. This preserves installed player files. The release bundles a 27-game listing; available games can change independently of app updates.
 
-![CS Masters Collection Home dashboard](screenshots/home-dashboard.png)
+## Preview
 
-## User Guide
+![CSMC Quick Start](screenshots/quick-start.png)
 
-A full step-by-step manual is available in the repository:
+## Help
 
-**[📖 Read the User Guide](docs/USER-GUIDE.md)**
+[User guide](docs/USER-GUIDE.md) · [Report a bug](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/issues/new/choose) · [Roadmap](ROADMAP.md) · [Discord](https://discord.gg/cGxs3jTf3e) · [UGZ9 on YouTube](https://www.youtube.com/@ugz9)
 
-Covers installation, game cards, downloads, the WW2 mode picker, Half-Life installer flow, settings, themes, and troubleshooting — with screenshots.
+Reports should include the launcher version, Windows version, game name, steps to reproduce, and exact error. Remove credentials and personal information from logs or screenshots.
 
-## Help and feedback
+## About this repository
 
-- Use [Bug reports](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/issues/new?template=bug_report.yml) for reproducible launcher problems.
-- Use [Feature requests](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/issues/new?template=feature_request.yml) for suggestions.
-- Use [Discussions](https://github.com/AniketSpecter/Counter-Strike-Master-Collection/discussions) for general questions and community conversation.
-- Join the [Discord community](https://discord.gg/cGxs3jTf3e) for community help and contact.
-- Watch [Ultimate Gaming Zone](https://www.youtube.com/@ugz9) and the [Valve Games Evolution playlist](https://youtube.com/playlist?list=PLHhmrXeOoWFH4GowGkriRZbEttF7JqbXX).
+This public repository contains downloads, documentation, release notes, screenshots, and community support. Source code, backend administration, and Master installer builds are maintained privately. Game archives are not included in GitHub releases.
 
-Before reporting a download or installation problem, include the launcher version, game name, install path, exact error message, and a screenshot with private information removed.
-
-## Public repository policy
-
-This is the public distribution and community repository. It intentionally contains release downloads, documentation, screenshots, roadmap information, changelogs, Issues, and Discussions—not launcher source code or game archives.
-
-Counter-Strike, GoldSrc, Steam, and related trademarks and game content belong to Valve Corporation and their respective owners. This community project is not affiliated with or endorsed by Valve.
+Counter-Strike, GoldSrc, Steam, and related game content and trademarks belong to Valve and their respective owners. This community project is not affiliated with or endorsed by Valve.

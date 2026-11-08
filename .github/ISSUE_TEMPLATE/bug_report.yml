@@ -10,7 +10,7 @@ body:
     id: version
     attributes:
       label: Launcher version
-      placeholder: 1.0.4
+      placeholder: 1.0.13
     validations:
       required: true
   - type: dropdown
